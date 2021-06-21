@@ -1,0 +1,21 @@
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   text-align: center;
+ }
+
+ h1 {
+    background: rgb(255, 251, 0);
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  p {
+    color: grey;
+    &:hover {
+      color: black;
+    }
+  }
